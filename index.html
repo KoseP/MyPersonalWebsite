@@ -1,0 +1,165 @@
+<body>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@600&family=VT323&display=swap" rel="stylesheet">
+
+    <title>PETER</title>
+
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.scrollto/2.1.0/jquery.scrollTo.min.js"></script>
+    <script src="./interaction.js"></script>
+  </head>
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-light navbar-expand-md justify-content-md-center justify-content-start">
+  <a class="navbar-brand d-md-none d-inline" href="">P.E.T.E.R</a>
+  <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
+      <ul class="navbar-nav mx-auto text-md-center text-left">
+          <li class="nav-item">
+              <a class="nav-link" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item my-auto">
+              <a class="nav-link navbar-brand mx-0 d-none d-md-inline" href="#home">KOSE PETER</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#contact">CONTACT</a>
+          </li>
+      </ul>
+  </div>
+</nav>
+
+  <!-- Begin page content -->
+  <div class="container-fluid">
+
+    <div id="home" class="row cover top">
+      <div class="col-xs-12">
+        <div class="row">
+          <div class="col-xs-12 headline">
+            <h1 class="text-center intro">Hello! My name is Ofuasia Peter Koseyem!</h1>
+            <p class="lead text-center">I'm a software developer.</p>
+            <img src="./psport.jpeg" class='img-circle text-center profile-img center-image' alt="me">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 center-block text-center">
+            <a href="#about"><span id="scrollIcon" class="front-glyph glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="about" class="row cover">
+      <h2 class="text-center about-heading">ABOUT ME</h2>
+      <div class="row">
+        <div class="col-md-6 text-center about-info">
+          <img class="img-circle text-center profile-img" src="./psport.jpeg">
+          <p class="text-center">
+            Tech enthusiast. A hardworking and self-motivated final year student of computer Science with fundamental knowledge of software & web technologies, strong passion for technology & its ability to improve the lives of others, wish to develop and utilise my educational background by taking on challenging tasks. Willing to grow professionally and learn new skills and ideas for the growth and development of the organisation and myself.
+          </p>
+        </div>
+        <div class="col-md-6 about-tools">
+          <p class="text-center">Here are my skills</p>
+          <div class="col-xs-6">
+            <ul>
+              <li><h2>IT Skills</h2></li>
+              <li>HTML/CSS3</li>
+              <li>Javascript</li>
+              <li>Java</li>
+              <li>SPSS</li>
+              <li>Office suite</li>
+            </ul>
+          </div>
+          <div class="col-xs-6">
+            <ul>
+              <li><h2>Soft Skills</h2></li>
+              <li>Team player</li>
+              <li>Proactive </li>
+              <li>Quick learner</li>
+
+            </ul>
+          </div>
+
+        </div>
+        <div class="row break">
+          <div class="col-md-6 about-last">
+            <p class="text-center">Check out my latest projects <span class="glyphicon glyphicon-arrow-down"></span></p>
+          </div>
+        </div>
+      </div>
+    </div><!-- End #About -->
+
+    <div id="portfolio" class="row cover">
+      <h2 class="text-center about-heading">Portfolio</h2>
+      <div class="container">
+        <div class="row portfolio-projects"> <!-- Two project row-->
+          <div class="col-lg-6"> <!--1st side project -->
+            <div class="row">
+              <div class="col-sm-5 text-center">
+                <h4 class="portfolio-projects--title">Online Quiz Developed by Kose Peter</h4>
+                <p class="portfolio-projects--desc">5 random questions :)</p>
+                <p class="portfolio-projects--desc">Uses: Javascript, HTML/CSS</p>
+                <a class="btn btn-rounded portfolio-projects--btn" href="https://kosep.github.io/Internwork/?fbclid=IwAR024caWQHoys5zMAQIDrF27VrXevipC3uTOM-8IzvxGW1pxdCWlTL7u39M" role="button">View Project</a>
+              </div>
+              <div class="col-sm-7 text-center">
+                <img class="portfolio-projects--image" src="./quiz.png">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6"> <!--2nd side project -->
+            <div class="row">
+              <div class="col-sm-5 text-center pull-right-sm"><!--flipped on small, unflipped on large-->
+                <h4 class="portfolio-projects--title">Kose Peter Restaurant</h4>
+                <p class="portfolio-projects--desc">A simple website designed for the purpose of testing my frontend knowledge</p>
+                <p class="portfolio-projects--desc">Uses: Javascript, HTML/CSS</p>
+                 <a class="btn btn-rounded portfolio-projects--btn" href="https://faroukalgebra.github.io/Peterkose/?fbclid=IwAR1E-mtSYC0QGiJZYb7E5HvD01bZSSH8wuM5OMQMZ4oLEsmfh-s6I-97p3Y#" role="button">View Project</a>
+              </div>
+              <div class="col-sm-7 text-center pull-right-sm"><!--flipped on small, unflipped on large-->
+                <img class="img-rounded portfolio-projects--image" src="./restaurant.png">
+              </div>
+            </div>
+          </div>
+        </div><!--end Two project row-->
+      </div>
+    </div>
+  </div><!-- End #Portfolio -->
+
+  <div id="contact" class="row cover bottom">
+    <h2 class="text-center contact-header">Contact Me</h2>
+    <p class="text-center contact-email">Get in touch with me <span class="glyphicon glyphicon-arrow-right"></span> peterkose@yahoo.com</p>
+    <div class="text-center contact-social-icons">
+      <p>Or find me on:</p>
+      <ul class="centered">
+        <a href="https://www.linkedin.com/in/peter-koseyem-ofuasia-bbb08911b/"><li><i class="fa fa-linkedin-square"></i> LinkedIn</li></a>
+        <a href="https://github.com/KoseP"><li><i class="fa fa-github"></i> Github</li></a>
+        <a href="https://twitter.com/___kose"><li><i class="fa fa-twitter"></i> Twitter</li></a>
+      </ul>
+    </p>
+
+  </div><!-- End #Contact -->
+
+</div>
+
+<footer class="footer">
+  <div class="container">
+  </div>
+</footer>
+
+</body>
